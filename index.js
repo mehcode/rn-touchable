@@ -57,9 +57,7 @@ export default class Touchable extends React.Component {
   };
 
   render() {
-    const highlight = getHighlight(this.props.style);
-
-    // Determine container
+    let highlight = getHighlight(this.props.style);
     let Impl;
     if (this.props.disabled) Impl = View;
     else if (this.props.noFeedback) Impl = TouchableWithoutFeedback;
