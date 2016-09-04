@@ -7,8 +7,8 @@ import {
 } from "react-native";
 import colorShade from "color-shade";
 
-function getHighlight(style) {
-  const style = StyleSheet.flatten(style);
+function getHighlight(styleProp) {
+  const style = StyleSheet.flatten(styleProp);
   let highlight
   if (style && style.backgroundColor) {
     highlight = colorShade(-0.15, style.backgroundColor);
