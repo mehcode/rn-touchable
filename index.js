@@ -5,6 +5,7 @@ import {
   TouchableHighlight,
   TouchableNativeFeedback,
   StyleSheet,
+  Platform,
 } from "react-native";
 import colorShade from "color-shade";
 
