@@ -1,0 +1,23 @@
+{
+  "name": "rn-touchable",
+  "version": "0.1.0",
+  "description": "Generic, Cross-platform Touchable component that uses the most platform-appropriate Touchable*.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehcode/rn-touchable.git"
+  },
+  "keywords": [
+    "react-native",
+    "touchable"
+  ],
+  "author": "Ryan Leckey <leckey.ryan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mehcode/rn-touchable/issues"
+  },
+  "homepage": "https://github.com/mehcode/rn-touchable#readme",
+  "dependencies": {
+    "color-shade": "^1.0.0"
+  }
+}
