@@ -1,6 +1,6 @@
 {
   "name": "rn-touchable",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Generic, Cross-platform Touchable component that uses the most platform-appropriate Touchable*.",
   "main": "index.js",
   "repository": {
