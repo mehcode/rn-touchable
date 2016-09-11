@@ -64,8 +64,8 @@ export default class Touchable extends React.Component {
     if (this.props.disabled) Impl = View;
     else if (this.props.noFeedback) Impl = TouchableWithoutFeedback;
     else if (Platform.OS === "android" && Platform.Version >= 21) {
-      Impl = TouchableNativeFeedback;
-      highlight = TouchableNativeFeedback.ripple(highlight);
+      Impl = TouchableNativeFeedbackView;
+      highlight = TouchableNativeFeedback.Ripple(highlight);
     } else {
       Impl = TouchableHighlight;
     }
